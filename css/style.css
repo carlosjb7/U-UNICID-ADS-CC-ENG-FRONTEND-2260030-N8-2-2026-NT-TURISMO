@@ -1,10 +1,10 @@
-/* Paleta: floresta, areia e água. Altere as cores aqui. */
+/* Paleta: Azul ardósia, areia e detalhes em cobre. */
 :root {
-  --verde: #18594b;
-  --verde-escuro: #123e35;
+  --verde: #17455e;        /* Substituído o verde principal por azul ardósia */
+  --verde-escuro: #0d2836; /* Substituído o verde escuro por azul marinho profundo */
   --areia: #f5f1e8;
-  --azul: #17647a;
-  --texto: #263b35;
+  --azul: #227b9b;         /* Azul de destaque aprimorado */
+  --texto: #223038;        /* Tom de texto neutro e escuro */
 }
 
 /* Estilos gerais */
@@ -50,7 +50,7 @@ main {
 }
 
 .hero {
-  background: #dcefe9;
+  background: #dce7ef;
   padding: 35px;
   border-radius: 12px;
   margin-bottom: 25px;
@@ -79,7 +79,7 @@ article {
 }
 
 .card {
-  border: 1px solid #d4e2dd;
+  border: 1px solid #d0dfe6;
   padding: 18px;
   border-radius: 10px;
   margin-bottom: 0;
@@ -126,7 +126,7 @@ iframe {
 }
 
 iframe {
-  border: 1px solid #c9d8d3;
+  border: 1px solid #c0d2dc;
 }
 
 .table-wrapper {
@@ -149,13 +149,13 @@ caption {
 
 th,
 td {
-  border: 1px solid #c9d8d3;
+  border: 1px solid #c0d2dc;
   padding: 10px;
   text-align: left;
 }
 
 th {
-  background: #dcefe9;
+  background: #dce7ef;
 }
 
 form {
@@ -175,7 +175,7 @@ textarea {
   width: 100%;
   min-width: 0;
   padding: 10px;
-  border: 1px solid #aebfba;
+  border: 1px solid #9fb9c7;
   border-radius: 6px;
   font-size: 16px;
 }
@@ -194,7 +194,7 @@ button {
 }
 
 button:hover {
-  background: #125448;
+  background: #0f3041;
 }
 
 footer {
@@ -225,7 +225,7 @@ header :focus-visible {
   left: 8px;
   transform: translateY(-200%);
   background: #fff;
-  color: #173c35;
+  color: #0f3041;
   padding: 10px 16px;
   z-index: 10;
 }
@@ -235,7 +235,7 @@ header :focus-visible {
 }
 
 #status-formulario {
-  color: #125448;
+  color: #0f3041;
   font-weight: bold;
 }
 
@@ -264,7 +264,7 @@ header h1 {
 }
 
 header > p {
-  color: #e1f0e8;
+  color: #e2edf3;
   margin-bottom: 18px;
 }
 
@@ -285,12 +285,12 @@ nav a[aria-current="page"] {
 
 section,
 .hero {
-  border: 1px solid #dce4dd;
-  box-shadow: 0 4px 16px #123e3508;
+  border: 1px solid #d3e1ec;
+  box-shadow: 0 4px 16px #0d28360a;
 }
 
 .hero {
-  background: linear-gradient(120deg, #dcefe3, #e3f0f3);
+  background: linear-gradient(120deg, #dce7ef, #e2f0f4);
   border-left: 6px solid var(--verde);
   padding: 40px 30px;
 }
@@ -311,7 +311,7 @@ section > ul {
 }
 
 .card {
-  background: #fcfdfb;
+  background: #fbfcfd;
   border-top: 4px solid var(--verde);
 }
 
@@ -354,7 +354,7 @@ section > ul {
 
 .tag {
   display: inline-block;
-  background: #e6efe7;
+  background: #e2edf3;
   color: var(--verde-escuro);
   border-radius: 20px;
   padding: 3px 10px;
@@ -365,9 +365,9 @@ section > ul {
 
 figure {
   padding: 10px;
-  border: 1px solid #dce4dd;
+  border: 1px solid #d3e1ec;
   border-radius: 10px;
-  background: #fcfdfb;
+  background: #fbfcfd;
 }
 
 figure img {
@@ -377,7 +377,7 @@ figure img {
 }
 
 details {
-  border: 1px solid #dce4dd;
+  border: 1px solid #d3e1ec;
   border-radius: 6px;
   padding: 14px;
   margin-bottom: 12px;
